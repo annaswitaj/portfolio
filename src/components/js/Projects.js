@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="App-projects-examples-example">
                     <img className="example-img" src={KittyKomunitty} alt="" />
                     <h2 className="example-h2">Portfolio</h2>
-                    <a href="https://kitty-community.herokuapp.com/">kod</a>
+                    <a href="https://github.com/annaswitaj/portfolio">kod</a>
                 </div>
                 <div className="App-projects-examples-example">
                     <img className="example-img" src={KittyKomunitty} alt="" />
