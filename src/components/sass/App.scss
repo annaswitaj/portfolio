@@ -1,0 +1,13 @@
+@import "./colors";
+
+//components
+@import "./base";
+@import "./components/aboutme";
+@import "./components/contact";
+@import "./components/name";
+@import "./components/navigation";
+@import "./components/technology";
+@import "./components/projects";
+
+//font
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Open+Sans+Condensed:wght@300&family=Plaster&family=Playfair+Display:wght@700&display=swap&subset=latin-ext');
