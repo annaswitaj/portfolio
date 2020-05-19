@@ -1,5 +1,7 @@
 import React from 'react';
 import KittyKomunitty from '../../img/KittyKomunitty.png'
+import Tenis from '../../img/tenis.PNG'
+import Portfolio from '../../img/portfolio.PNG'
 
 
 const Projects = () => {
@@ -16,13 +18,15 @@ const Projects = () => {
                     <a href="https://kitty-community.herokuapp.com/">live</a>
                 </div>
                 <div className="App-projects-examples-example">
-                    <img className="example-img" src={KittyKomunitty} alt="" />
+                    <img className="example-img" src={Portfolio} alt="" />
                     <h2 className="example-h2">Portfolio</h2>
                     <a href="https://github.com/annaswitaj/portfolio">kod</a>
                 </div>
                 <div className="App-projects-examples-example">
-                    <img className="example-img" src={KittyKomunitty} alt="" />
-                    <h2 className="example-h2">Projekt grupowy</h2>
+                    <img className="example-img" src={Tenis} alt="" />
+                    <h2 className="example-h2">Ping-Pong</h2>
+                    <a href="https://annaswitaj.github.io/ping-pong/Tenis-1.html">live</a>
+                    <a className="last" href="https://github.com/annaswitaj/ping-pong">kod</a>
                 </div>
 
             </div>

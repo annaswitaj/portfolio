@@ -2,6 +2,7 @@ section.App-projects {
     background-color: $light;
     height: 100vh;
     width: 100%;
+    // background-image: url("../../../img/white-2484120_1280.png");
 
     div.App-projects-examples {
         justify-content: space-around;
@@ -9,9 +10,16 @@ section.App-projects {
         height: 100%;
         align-items: center;
 
+
         div.App-projects-examples-example {
             padding: 1rem;
             text-align: center;
+            // background-color: $beige;
+            border-right: .1rem solid $green;
+            border-left: .1rem solid $green;
+            border-radius: 1rem;
+            filter: brightness(120%);
+
 
             h2.example-h2 {
 
@@ -21,26 +29,33 @@ section.App-projects {
 
             img.example-img {
                 width: 20rem;
-            }
-
-            a {
-                text-decoration: none;
-                font-size: 1.8rem;
-                color: #000;
-                transition: 1s;
-                padding: 0.01rem.3rem;
-                border-right: .01rem solid black;
-                border-left: .01rem solid black;
+                border-radius: .3rem;
+                transition: .5s;
 
 
                 &:hover {
-                    // background-color: $orange;
-                    // color: $beige;
-                    border-right: none;
-                    border-left: none;
-                    border-top: .01rem solid $orange;
-                    border-bottom: .01rem solid $orange;
+                    transform: scale(1.1);
                 }
+            }
+
+            a {
+
+                text-decoration: none;
+                font-size: 1.8rem;
+                color: #000;
+
+                padding: 0.01rem .5rem;
+                border-right: .01rem solid black;
+                border-left: .01rem solid black;
+                font-weight: 900;
+
+                &:hover {
+                    background-color: #fff;
+                }
+            }
+
+            a.last {
+                border-left: none;
             }
 
         }

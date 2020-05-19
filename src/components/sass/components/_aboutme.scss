@@ -1,5 +1,36 @@
 section.App-aboutme {
     background-color: $beige;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
+    display: flex;
+
+    div.title {
+        opacity: 1;
+    }
+
+    div.description {
+        opacity: 1;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+
+
+        article.des {
+            width: 37%;
+            border-right: 0.1rem solid $green;
+            border-left: 0.1rem solid $green;
+            border-radius: 2rem;
+            text-align: center;
+
+
+            p {
+
+                font-size: 1.6rem;
+                font-weight: 900;
+
+            }
+        }
+
+    }
 }

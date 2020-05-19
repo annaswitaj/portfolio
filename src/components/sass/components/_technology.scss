@@ -1,12 +1,11 @@
 section.App-technology {
     background-color: $beige;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
 
     div.technology-icons {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
         height: 100%;
         align-items: center;
