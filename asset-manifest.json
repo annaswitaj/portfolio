@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/moja-aplikacja/static/css/main.2807e4cc.chunk.css",
+    "main.js": "/moja-aplikacja/static/js/main.c9694cf7.chunk.js",
+    "main.js.map": "/moja-aplikacja/static/js/main.c9694cf7.chunk.js.map",
+    "runtime-main.js": "/moja-aplikacja/static/js/runtime-main.93d51f04.js",
+    "runtime-main.js.map": "/moja-aplikacja/static/js/runtime-main.93d51f04.js.map",
+    "static/js/2.d628f461.chunk.js": "/moja-aplikacja/static/js/2.d628f461.chunk.js",
+    "static/js/2.d628f461.chunk.js.map": "/moja-aplikacja/static/js/2.d628f461.chunk.js.map",
+    "index.html": "/moja-aplikacja/index.html",
+    "precache-manifest.7f03c675a5ea5957fd92d97db8483dc9.js": "/moja-aplikacja/precache-manifest.7f03c675a5ea5957fd92d97db8483dc9.js",
+    "service-worker.js": "/moja-aplikacja/service-worker.js",
+    "static/css/main.2807e4cc.chunk.css.map": "/moja-aplikacja/static/css/main.2807e4cc.chunk.css.map",
+    "static/js/2.d628f461.chunk.js.LICENSE.txt": "/moja-aplikacja/static/js/2.d628f461.chunk.js.LICENSE.txt",
+    "static/media/KittyKomunitty.png": "/moja-aplikacja/static/media/KittyKomunitty.4e8f31a4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93d51f04.js",
+    "static/js/2.d628f461.chunk.js",
+    "static/css/main.2807e4cc.chunk.css",
+    "static/js/main.c9694cf7.chunk.js"
+  ]
+}
