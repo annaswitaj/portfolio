@@ -46,6 +46,13 @@ section.App-projects {
                 }
             }
 
+            @media (max-width: 410px) {
+                img.example-img {
+                    width: 14rem;
+
+                }
+            }
+
             a {
 
                 text-decoration: none;
