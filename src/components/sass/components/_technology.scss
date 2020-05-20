@@ -1,20 +1,24 @@
 section.App-technology {
     background-color: $beige;
-    height: 80vh;
-    width: 100%;
+    // height: 80vh;
+    // width: 100%;
     display: flex;
 
     div.technology-icons {
         display: flex;
         justify-content: space-around;
-        height: 100%;
+        flex-grow: 1;
         align-items: center;
+        flex-wrap: wrap;
+
 
         div.technology-icon {
             text-align: center;
+            padding: 1rem 5rem;
+
 
             span.fab {
-                font-size: 7rem;
+                font-size: 8rem;
                 transition: .5s;
 
                 &:hover {

@@ -1,7 +1,7 @@
 section.App-projects {
     background-color: $light;
-    height: 100vh;
-    width: 100%;
+    // height: 100vh;
+    // width: 100%;
     // background-image: url("../../../img/white-2484120_1280.png");
 
     div.App-projects-examples {
@@ -9,6 +9,7 @@ section.App-projects {
         display: flex;
         height: 100%;
         align-items: center;
+        flex-wrap: wrap;
 
 
         div.App-projects-examples-example {
@@ -60,4 +61,13 @@ section.App-projects {
 
         }
     }
+}
+
+@media (max-width: $breakpoint-tablet-landscape) {
+
+    div.App-projects-examples-example {
+
+        margin: 1rem;
+    }
+
 }

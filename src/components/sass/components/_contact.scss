@@ -1,14 +1,15 @@
 section.App-contact {
     background-color: $light;
-    height: 70vh;
-    width: 100%;
+    // height: 70vh;
+    // width: 100%;
     background-image: url("../../../img/white-2484120_1280.png");
+
 
     div.icons {
         display: flex;
         justify-content: space-around;
-        height: 100%;
 
+        flex-grow: 1;
         align-items: center;
 
         div.container {
