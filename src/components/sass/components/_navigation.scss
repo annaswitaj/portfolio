@@ -30,3 +30,9 @@ nav.App-nav {
         }
     }
 }
+
+@media (max-width:509px) {
+    nav.App-nav {
+        display: none;
+    }
+}

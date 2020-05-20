@@ -27,6 +27,35 @@ section.App-technology {
                 }
             }
 
+            @media (max-width: $breakpoint-mobile-landscape) {
+                span.fab {
+                    font-size: 6rem;
+
+                }
+            }
+
+            @media (max-width: $breakpoint-mobile-landscape-small) {
+                span.fab {
+                    font-size: 5rem;
+
+                }
+            }
+
+            @media (max-width: 543px) {
+                span.fab {
+                    font-size: 4rem;
+
+                }
+            }
+
+            @media (max-width: 511px) {
+                span.fab {
+                    font-size: 5rem;
+
+                }
+            }
+
+
             p {
                 font-size: 1.5rem;
                 transition: .5s;

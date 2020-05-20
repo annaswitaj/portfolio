@@ -52,6 +52,21 @@ section.App-name {
 
         }
 
+        @media (max-width: 559px) {
+            h1 {
+                border: none;
+
+                &:after {
+                    content: "";
+                    display: block;
+                    margin: 0 auto;
+                    width: 60%;
+                    padding-top: 1rem;
+                    border-bottom: 1px solid black;
+                }
+            }
+        }
+
         h2 {
             font-family: 'Barlow Condensed', sans-serif;
             font-size: 2em;

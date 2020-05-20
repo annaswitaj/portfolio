@@ -16,11 +16,9 @@ section.App-contact {
             text-align: center;
 
             span.fas {
-                font-size: 8rem;
+                font-size: 7rem;
                 color: $dark;
             }
-
-
 
             p.container-data {
                 font-size: 1.3rem;
@@ -32,8 +30,6 @@ section.App-contact {
         div.container-icon {
             a {
                 text-decoration: none;
-
-
 
                 span.fab {
                     display: block;
@@ -52,6 +48,53 @@ section.App-contact {
 
         }
 
+        @media (max-width: $breakpoint-mobile-landscape) {
+            div.container {
+                span.fas {
+                    font-size: 6rem;
+                }
+            }
+
+            div.container-icon {
+                a {
+                    span.fab {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 543px) {
+            div.container {
+                span.fas {
+                    font-size: 5rem;
+                }
+            }
+
+            div.container-icon {
+                a {
+                    span.fab {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 5410px) {
+            div.container {
+                span.fas {
+                    font-size: 4rem;
+                }
+
+                p.container-data {
+                    font-size: 1.1rem;
+                    font-weight: 900;
+
+                }
+            }
+
+
+        }
 
 
     }

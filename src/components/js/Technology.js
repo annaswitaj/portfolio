@@ -10,9 +10,9 @@ const Technology = () => {
             </div>
             <div className="technology-icons">
                 <div className="technology-icon"><span class="fab fa-html5"></span><p>HTML5</p></div>
-                <div className="technology-icon"><span class="fab fa-css3-alt"></span><p>CSS3</p></div>
                 <div className="technology-icon"><span class="fab fa-js"></span><p>JS</p></div>
                 <div className="technology-icon"><span class="fab fa-sass"></span><p>SASS</p></div>
+                <div className="technology-icon"><span class="fab fa-css3-alt"></span><p>CSS3</p></div>
                 <div className="technology-icon"><span class="fab fa-react"></span><p>React</p></div>
                 <div className="technology-icon"><span class="fab fa-git-alt"></span><p>Git</p></div>
 
