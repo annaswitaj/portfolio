@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <article className="des"><p>Nazywam się Anna Świtaj. Obecnie jestem na 3 roku studiów kierunku Informatyka, na Uniwersytecie Warmińsko-Mazurskim.</p>
                     <p>W trakcie studiowania wykonywałam  projekty zespołowe przy użyciu GITa</p>
                 </article>
-                <article className="des">     <p>Szukam stażu lub pracy związanej z programowaniem front-endu. Obecnie uczę się technologii React i chciałabym dalej się nim zajmować.</p>
+                <article className="des">     <p>Szukam stażu lub pracy związanej z programowaniem front-endu. Obecnie uczę się technologii React .</p>
                     <p>Hobbistycznie tworzę modele 3D oraz projektuję grafiki.</p>
                 </article>
 

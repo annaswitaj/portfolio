@@ -16,13 +16,14 @@ nav.App-nav {
         align-items: center;
 
 
-
         li {
             margin: 1rem;
             font-family: 'Barlow Condensed', sans-serif;
             font-size: 1.6rem;
             text-transform: uppercase;
             cursor: pointer;
+            transition: .2s;
+            border-bottom: 0.01em solid transparent;
 
             &:hover {
                 border-bottom: 0.01em solid $orange;
