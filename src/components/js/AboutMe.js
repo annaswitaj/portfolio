@@ -10,7 +10,7 @@ const AboutMe = () => {
                 <h2 className="title-h1">Kim jestem?</h2>
             </div>
             <div className="description">
-                <article className="des"><p>Nazywam się Anna Świtaj. Jestm absolwentem kierunku Informatyka, na Uniwersytecie Warmińsko-Mazurskim.</p>
+                <article className="des"><p>Nazywam się Anna Świtaj. Jestem absolwentem kierunku Informatyka, na Uniwersytecie Warmińsko-Mazurskim.</p>
                     <p>W trakcie studiowania wykonywałam  projekty zespołowe przy użyciu GITa</p>
                 </article>
                 <article className="des">     <p>Szukam pracy związanej z programowaniem front-endu. Obecnie uczę się technologii React .</p>
