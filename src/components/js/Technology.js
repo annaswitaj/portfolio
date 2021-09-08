@@ -6,7 +6,7 @@ const Technology = () => {
         <section className="App-technology">
             <div className="title">
                 <h1 className="title-h1">Umiejętności</h1>
-                <h2 className="title-h1">Co potafię?</h2>
+              
             </div>
             <div className="technology-icons">
                 <div className="technology-icon"><span class="fab fa-html5"></span><p>HTML5</p></div>

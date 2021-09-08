@@ -1,10 +1,12 @@
 import React from 'react';
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+import Pineapple from '../../img/pineO.png'
 
 
 const Navigation = (props) => {
     return (
         <nav className="App-nav">
+            <img className="App-nav-img" src={Pineapple}></img>
             <ul className="App-nav-ul">
                 <Link to="App-aboutme"
                     spy={true}

@@ -8,7 +8,7 @@ const Name = () => {
         <section className="App-contact">
             <div className="title">
                 <h1 className="title-h1">Kontakt</h1>
-                <h2 className="title-h1">Jeśli jesteś zainteresowany nawiązaniem współpracy w postaci pracy lub stażu, zapraszam do kontaktu.</h2>
+  
             </div>
             <div className="icons">
                 <div className="container">

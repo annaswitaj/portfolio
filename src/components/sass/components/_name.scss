@@ -1,8 +1,7 @@
 section.App-name {
-    background-color: $light;
     height: 100vh;
     // width: 100%;
-    background-image: url("../../../img/white-2484120_1280.png");
+    background-color: white;
 
     div.data {
         position: absolute;
@@ -21,15 +20,15 @@ section.App-name {
             }
 
             25% {
-                color: $green;
+                color:rgb(252, 143, 0);
             }
 
             50% {
-                color: $orange;
+                color:$orange;
             }
 
             75% {
-                color: $beige;
+                color: rgb(252, 143, 0);
             }
 
             100% {
@@ -41,9 +40,10 @@ section.App-name {
 
 
         h1 {
-            font-family: 'Playfair Display', serif;
+            //font-family: 'Playfair Display', serif;
             font-size: 6em;
-            border-bottom: 0.1rem solid $green;
+            //border-bottom: .5rem solid rgb(0, 0, 0);
+            //border-radius: .5rem;
             margin: 0;
             padding: 1rem;
             animation: coloring linear 4s infinite;
@@ -68,9 +68,9 @@ section.App-name {
         }
 
         h2 {
-            font-family: 'Barlow Condensed', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             font-size: 2em;
-            color: $dark;
+            color: rgb(82, 80, 80);
 
         }
     }

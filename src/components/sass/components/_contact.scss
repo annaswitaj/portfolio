@@ -1,8 +1,7 @@
 section.App-contact {
-    background-color: $light;
+    background-color: white;
     // height: 70vh;
     // width: 100%;
-    background-image: url("../../../img/white-2484120_1280.png");
 
 
     div.icons {
@@ -21,7 +20,7 @@ section.App-contact {
             }
 
             p.container-data {
-                font-size: 1.3rem;
+                font-size: 1.6rem;
                 font-weight: 900;
 
             }
@@ -39,7 +38,7 @@ section.App-contact {
                     transition: .1s;
 
                     &:hover {
-                        color: $green;
+                        color: orange;
                         transform: scale(1.2);
 
                     }

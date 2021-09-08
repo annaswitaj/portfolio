@@ -1,8 +1,9 @@
 section.App-technology {
-    background-color: $beige;
+    background-color: black;
     // height: 80vh;
     // width: 100%;
     display: flex;
+    color: white;
 
     div.technology-icons {
         display: flex;
@@ -23,7 +24,7 @@ section.App-technology {
 
                 &:hover {
                     transform: scale(1.2);
-                    color: $green;
+                    color: rgb(226, 159, 72);
                 }
             }
 

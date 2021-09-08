@@ -1,8 +1,9 @@
 section.App-aboutme {
-    background-color: $beige;
+    background-color: black;
     // height: 90vh;
     // width: 100%;
     // display: flex;
+    color: white;
 
     div.title {
         opacity: 1;
@@ -19,8 +20,7 @@ section.App-aboutme {
 
         article.des {
             width: 37%;
-            border-right: 0.1rem solid $green;
-            border-left: 0.1rem solid $green;
+            
             border-radius: 2rem;
             text-align: center;
 
@@ -29,8 +29,11 @@ section.App-aboutme {
 
                 font-size: 1.6rem;
                 font-weight: 900;
-
+                color: orange;
+         
             }
+            
+           
         }
 
     }
