@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e2e963f4.chunk.css",
-    "main.js": "/portfolio/static/js/main.70164179.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.70164179.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ca741e7a.chunk.css",
+    "main.js": "/portfolio/static/js/main.c5e0d119.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c5e0d119.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.3a7115b2.chunk.js": "/portfolio/static/js/2.3a7115b2.chunk.js",
-    "static/js/2.3a7115b2.chunk.js.map": "/portfolio/static/js/2.3a7115b2.chunk.js.map",
+    "static/js/2.252e2f84.chunk.js": "/portfolio/static/js/2.252e2f84.chunk.js",
+    "static/js/2.252e2f84.chunk.js.map": "/portfolio/static/js/2.252e2f84.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.e1303577ec3f1ab5db7b9999d78ac779.js": "/portfolio/precache-manifest.e1303577ec3f1ab5db7b9999d78ac779.js",
+    "precache-manifest.654d931920d91fee4f53777bef93a7ed.js": "/portfolio/precache-manifest.654d931920d91fee4f53777bef93a7ed.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.e2e963f4.chunk.css.map": "/portfolio/static/css/main.e2e963f4.chunk.css.map",
-    "static/js/2.3a7115b2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3a7115b2.chunk.js.LICENSE.txt",
-    "static/media/KittyKomunitty.png": "/portfolio/static/media/KittyKomunitty.4e8f31a4.png",
+    "static/css/main.ca741e7a.chunk.css.map": "/portfolio/static/css/main.ca741e7a.chunk.css.map",
+    "static/js/2.252e2f84.chunk.js.LICENSE.txt": "/portfolio/static/js/2.252e2f84.chunk.js.LICENSE.txt",
+    "static/media/adminDashboard.png": "/portfolio/static/media/adminDashboard.7ca6c1c7.png",
+    "static/media/pineO.png": "/portfolio/static/media/pineO.d2b6ac40.png",
     "static/media/portfolio.PNG": "/portfolio/static/media/portfolio.ecbc164b.PNG",
-    "static/media/tenis.PNG": "/portfolio/static/media/tenis.31d713fb.PNG",
-    "static/media/App.scss": "/portfolio/static/media/white-2484120_1280.11616860.png"
+    "static/media/tenis.PNG": "/portfolio/static/media/tenis.31d713fb.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.3a7115b2.chunk.js",
-    "static/css/main.e2e963f4.chunk.css",
-    "static/js/main.70164179.chunk.js"
+    "static/js/2.252e2f84.chunk.js",
+    "static/css/main.ca741e7a.chunk.css",
+    "static/js/main.c5e0d119.chunk.js"
   ]
 }
