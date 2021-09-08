@@ -37,13 +37,13 @@ section.App-name {
         }
         @keyframes meditation {
             0% { transform: rotate(0); }
-            12% { transform: rotate(10deg); }
-            25% { transform: rotate(20deg); }
-            37% { transform: rotate(10deg); }
+            12% { transform: rotate(4deg); }
+            25% { transform: rotate(8deg); }
+            37% { transform: rotate(4deg); }
             50% { transform: rotate(0deg); }
-            62% { transform: rotate(-10deg); }
-            75% { transform: rotate(-20deg); }
-            87% { transform: rotate(-10deg); }
+            62% { transform: rotate(-4deg); }
+            75% { transform: rotate(-8deg); }
+            87% { transform: rotate(-4deg); }
             100% { transform: rotate(0deg); }
         }
 
