@@ -14,7 +14,7 @@ const AboutMe = () => {
                     <p>W trakcie studiowania wykonywałam  projekty zespołowe przy użyciu GITa</p>
                 </article>
                 <article className="des">     <p>Szukam stażu/pracy związanej z programowaniem front-endu. Obecnie uczę się technologii React .</p>
-                    <p>Hobbistycznie tworzę modele 3D oraz projektuję grafiki.</p>
+                    <p>Hobbistycznie projektuję grafiki, medytuję i praktykuję jogę.</p>
                 </article>
 
             </div>
