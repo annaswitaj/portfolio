@@ -20,7 +20,7 @@ const Name = () => {
                     <p className="container-data">annaswitaj.sw@gmail.com</p>
                 </div>
                 <div className="container-icon">
-                    <a href="https://www.linkedin.com/in/anna-%C5%9Bwitaj-a402821aa/"><span className="fab fa-linkedin"></span></a>
+                    <a href="https://www.linkedin.com/in/anna-%C5%9Bwitaj-a402821aa/"><span className="fab fa-linkedin-in"></span></a>
                     <a href="https://github.com/annaswitaj"><span className="fab fa-github"></span></a>
 
                 </div>

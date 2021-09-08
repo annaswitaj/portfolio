@@ -5,6 +5,7 @@ section.App-aboutme {
     // display: flex;
     color: white;
 
+
     div.title {
         opacity: 1;
     }
@@ -15,21 +16,22 @@ section.App-aboutme {
         justify-content: space-around;
         width: 100%;
         flex-wrap: wrap;
+       align-items: center;
+       margin-top: 3.5rem;
 
 
 
         article.des {
-            width: 37%;
-            
+            width: 37%;   
             border-radius: 2rem;
             text-align: center;
-
-
+   
             p {
 
-                font-size: 1.6rem;
+                font-size: 1.3rem;
                 font-weight: 900;
                 color: orange;
+                padding: 1rem;
          
             }
             

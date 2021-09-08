@@ -11,28 +11,28 @@ const Navigation = (props) => {
                 <Link to="App-aboutme"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-110}
                     duration={500}>
                     <li>O mnie</li>
                 </Link>
                 <Link to="App-projects"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-110}
                     duration={500}>
                     <li >Projekty</li>
                 </Link>
                 <Link to="App-technology"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-110}
                     duration={500}>
                     <li >umiejętności</li>
                 </Link>
                 <Link to="App-contact"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-110}
                     duration={500}>
                     <li>Kontakt</li>
                 </Link>
