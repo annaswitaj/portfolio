@@ -15,18 +15,19 @@ const Projects = () => {
                 <div className="App-projects-examples-example">
                     <img className="example-img" src={Portfolio} alt="" />
                     <h2 className="example-h2">Portfolio</h2>
-                    <a href="https://github.com/annaswitaj/portfolio">kod</a>
+                    <a href="https://github.com/annaswitaj/portfolio/tree/dev">kod</a>
                 </div>
                 <div className="App-projects-examples-example">
                     <img className="example-img" src={Tenis} alt="" />
                     <h2 className="example-h2">Ping-Pong</h2>
                     <a href="https://annaswitaj.github.io/ping-pong/Tenis-1.html">live</a>
-                    <a className="last" href="https://github.com/annaswitaj/ping-pong">kod</a>
+                    <a className="last" href="https://github.com/annaswitaj/ping-pong/blob/master/Tenis-1.html">kod</a>
                 </div>
                 <div className="App-projects-examples-example">
                     <img className="example-img" src={AdminDashboard} alt="" />
                     <h2 className="example-h2">Admin Dashboard</h2>
                     <a href="https://annaswitaj.github.io/Admin-Dashboard/">live</a>
+                    <a className="last" href="https://github.com/annaswitaj/Admin-Dashboard/tree/dev">kod</a>
                 </div>
 
             </div>
