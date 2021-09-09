@@ -1,6 +1,6 @@
 import React from 'react';
 import Tenis from '../../img/tenis.PNG'
-import Portfolio from '../../img/portfolio.PNG'
+import Portfolio from '../../img/portfolio.png'
 import AdminDashboard from '../../img/adminDashboard.png'
 
 
