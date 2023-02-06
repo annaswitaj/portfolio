@@ -21,13 +21,13 @@ const Projects = () => {
         <ProjectWrapper
           pathImage={Tenis}
           projectName='Ping-Pong'
-          liveLink='https://annaswitaj.github.io/ping-pong/Tenis-1.html'
+          liveLink='https://ping-pong-tenis-js.netlify.app'
           codeLink='https://github.com/annaswitaj/ping-pong/blob/master/Tenis-1.html'
         />
         <ProjectWrapper
           pathImage={AdminDashboard}
           projectName='Admin Dashboard'
-          liveLink='https://annaswitaj.github.io/Admin-Dashboard/'
+          liveLink='https://admin-dashboard-react-no-api.netlify.app'
           codeLink='https://github.com/annaswitaj/Admin-Dashboard/tree/dev'
         />
         <ProjectWrapper
