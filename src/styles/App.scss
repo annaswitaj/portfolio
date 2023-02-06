@@ -1,0 +1,13 @@
+@import './base/variables';
+
+//components
+@import './base/base';
+@import './components/aboutme';
+@import './components/contact';
+@import './components/name';
+@import './components/navigation';
+@import './components/technology';
+@import './components/projects';
+
+//font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
