@@ -1,8 +1,8 @@
 section.App-projects {
-  background-color: white;
+  background-color: $light;
   // height: 100vh;
   // width: 100%;
-  // background-image: url("../../../img/white-2484120_1280.png");
+  // background-image: url("../../../img/$light-2484120_1280.png");
 
   div.App-projects-examples {
     display: grid;
@@ -59,7 +59,7 @@ section.App-projects {
 
         &:hover {
           background-color: orange;
-          color: white;
+          color: $light;
         }
       }
     }

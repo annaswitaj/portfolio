@@ -1,93 +1,102 @@
 section.App-name {
-    height: 100vh;
-    // width: 100%;
-    background-color: white;
+  height: 100vh;
+  // width: 100%;
+  background-color: $light;
 
-    div.data {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        // background-color: $light;
-        // filter: brightness(150%);
+  div.data {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    // background-color: $light;
+    // filter: brightness(150%);
 
+    @keyframes coloring {
+      0% {
+        color: $dark;
+      }
 
-        @keyframes coloring {
-            0% {
-                color: $dark;
-            }
+      25% {
+        color: rgb(252, 143, 0);
+      }
 
-            25% {
-                color:rgb(252, 143, 0);
-            }
+      50% {
+        color: $orange;
+      }
 
-            50% {
-                color:$orange;
-            }
+      75% {
+        color: rgb(252, 143, 0);
+      }
 
-            75% {
-                color: rgb(252, 143, 0);
-            }
-
-            100% {
-                color: $dark;
-            }
-        }
-        @keyframes meditation {
-            0% { transform: rotate(0); }
-            12% { transform: rotate(4deg); }
-            25% { transform: rotate(8deg); }
-            37% { transform: rotate(4deg); }
-            50% { transform: rotate(0deg); }
-            62% { transform: rotate(-4deg); }
-            75% { transform: rotate(-8deg); }
-            87% { transform: rotate(-4deg); }
-            100% { transform: rotate(0deg); }
-        }
-
-
-
-
-        h1 {
-      
-            font-size: 6em;
-         
-            margin: 0;
-            margin-top: 4rem;
-            padding: .5rem;
-            animation: coloring linear 4s infinite;
-
-        }
-     
-
-        @media (max-width: 559px) {
-            h1 {
-                border: none;
-
-                &:after {
-                    content: "";
-                    display: block;
-                    margin: 0 auto;
-                    width: 60%;
-                    padding-top: 1rem;
-                    border-bottom: 1px solid black;
-                }
-            }
-        }
-
-        h2 {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 2rem;
-            color: rgb(82, 80, 80);
-
-        }
-        img
-        {
-           margin-top: 4rem;
-            height:15rem ;
-            animation: meditation linear 4s infinite;
-        }
+      100% {
+        color: $dark;
+      }
     }
+    @keyframes meditation {
+      0% {
+        transform: rotate(0);
+      }
+      12% {
+        transform: rotate(4deg);
+      }
+      25% {
+        transform: rotate(8deg);
+      }
+      37% {
+        transform: rotate(4deg);
+      }
+      50% {
+        transform: rotate(0deg);
+      }
+      62% {
+        transform: rotate(-4deg);
+      }
+      75% {
+        transform: rotate(-8deg);
+      }
+      87% {
+        transform: rotate(-4deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+
+    h1 {
+      font-size: 6em;
+
+      margin: 0;
+      margin-top: 4rem;
+      padding: 0.5rem;
+      animation: coloring linear 4s infinite;
+    }
+
+    @media (max-width: 559px) {
+      h1 {
+        border: none;
+
+        &:after {
+          content: '';
+          display: block;
+          margin: 0 auto;
+          width: 60%;
+          padding-top: 1rem;
+          border-bottom: 1px solid $dark;
+        }
+      }
+    }
+
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2rem;
+      color: rgb(82, 80, 80);
+    }
+    img {
+      margin-top: 4rem;
+      height: 15rem;
+      animation: meditation linear 4s infinite;
+    }
+  }
 }

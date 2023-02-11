@@ -1,9 +1,9 @@
 section.App-technology {
-  background-color: black;
+  background-color: $dark;
   // height: 80vh;
   // width: 100%;
   display: flex;
-  color: white;
+  color: $light;
 
   div.technology-icons {
     display: flex;

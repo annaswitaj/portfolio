@@ -1,5 +1,5 @@
 section.App-contact {
-  background-color: white;
+  background-color: $light;
   // height: 70vh;
   // width: 100%;
 
@@ -31,7 +31,7 @@ section.App-contact {
         .icon {
           display: block;
           font-size: 2.5rem;
-          color: white;
+          color: $light;
           margin: 2rem 0;
           padding: 0.8rem;
           transition: 0.3s;
