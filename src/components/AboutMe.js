@@ -15,8 +15,7 @@ const AboutMe = () => {
             Uniwersytecie Warmińsko-Mazurskim.
           </p>
           <p>
-            Mam rok doświadczenia tworząc aplikacje w Angularze. Po roku
-            programowania w tej technologii , chciałabym wrócić do Reacta
+            Mam rok doświadczenia tworząc aplikacje w Angularze.
           </p>
 
           <p>Hobbistycznie projektuję grafiki, medytuję i praktykuję jogę.</p>
