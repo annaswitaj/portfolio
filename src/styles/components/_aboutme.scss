@@ -1,8 +1,5 @@
 section.App-aboutme {
   background-color: $dark;
-  // height: 90vh;
-  // width: 100%;
-  // display: flex;
   color: $light;
 
   div.title {
@@ -40,8 +37,6 @@ section.App-aboutme {
         border: 1px solid orange;
         border-radius: 0.6rem;
         background-color: $light;
-
-        //font-weight: 900;
 
         &:hover {
           background-color: orange;

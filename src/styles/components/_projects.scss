@@ -1,9 +1,5 @@
 section.App-projects {
   background-color: $light;
-  // height: 100vh;
-  // width: 100%;
-  // background-image: url("../../../img/$light-2484120_1280.png");
-
   div.App-projects-examples {
     display: grid;
     height: 100%;
@@ -55,8 +51,6 @@ section.App-projects {
         border: 1px solid orange;
         border-radius: 0.6rem;
 
-        //font-weight: 900;
-
         &:hover {
           background-color: orange;
           color: $light;
@@ -67,7 +61,14 @@ section.App-projects {
 }
 
 @media (max-width: $breakpoint-tablet-landscape) {
-  div.App-project-wrapper {
-    margin: 1rem;
+  section.App-projects {
+    align-items: center;
+    div.App-projects-examples {
+      grid-template-columns: auto !important;
+
+      div.App-project-wrapper {
+        margin: 1rem;
+      }
+    }
   }
 }

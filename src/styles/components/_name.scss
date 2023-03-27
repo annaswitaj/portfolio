@@ -1,6 +1,5 @@
 section.App-name {
   height: 100vh;
-  // width: 100%;
   background-color: $light;
 
   div.data {
@@ -10,8 +9,6 @@ section.App-name {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    // background-color: $light;
-    // filter: brightness(150%);
 
     @keyframes coloring {
       0% {
