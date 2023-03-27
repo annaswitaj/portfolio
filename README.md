@@ -2,8 +2,9 @@
 
 If you want to know more about me, go to my portfolio ->
 
-## Demo (Desktop only)
+## Demo 
 https://github.com/annaswitaj/portfolio
+![portfolio](https://user-images.githubusercontent.com/32534930/227981839-bc31becc-9211-44a7-a5d0-3242111af2dd.png)
 
 ---
 
