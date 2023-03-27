@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.87338551.css",
-    "main.js": "/portfolio/static/js/main.4c6086e1.js",
+    "main.js": "/portfolio/static/js/main.14d27718.js",
     "static/media/Anna_Switaj_CV.pdf": "/portfolio/static/media/Anna_Switaj_CV.6e7c03c19cc1dd7d6965.pdf",
     "static/media/shopping-cart.png": "/portfolio/static/media/shopping-cart.3b8bba3c1a6cab133b71.png",
     "static/media/pineapple.png": "/portfolio/static/media/pineapple.cde206beba40f86322e3.png",
@@ -9,13 +9,15 @@
     "static/media/me.png": "/portfolio/static/media/me.2de092cecdc76c484d6b.png",
     "static/media/admin-dashboard.png": "/portfolio/static/media/admin-dashboard.da8e39763ba5d4430a5c.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.45b756cbab66d9e32e16.png",
+    "static/media/countries-app.png": "/portfolio/static/media/countries-app.2504b19df1ad14482c06.png",
+    "static/media/budget-app.png": "/portfolio/static/media/budget-app.ea030070beb38c3bc9ed.png",
     "static/media/tenis.png": "/portfolio/static/media/tenis.dcf8274cd615c4445061.png",
     "index.html": "/portfolio/index.html",
     "main.87338551.css.map": "/portfolio/static/css/main.87338551.css.map",
-    "main.4c6086e1.js.map": "/portfolio/static/js/main.4c6086e1.js.map"
+    "main.14d27718.js.map": "/portfolio/static/js/main.14d27718.js.map"
   },
   "entrypoints": [
     "static/css/main.87338551.css",
-    "static/js/main.4c6086e1.js"
+    "static/js/main.14d27718.js"
   ]
 }
