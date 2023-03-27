@@ -1,10 +1,12 @@
-import React from 'react'
-import Tenis from '../assets/img/tenis.png'
-import Portfolio from '../assets/img/portfolio.png'
-import AdminDashboard from '../assets/img/admin-dashboard.png'
-import ToDoList from '../assets/img/to-do-list.png'
-import ShoppingCart from '../assets/img/shopping-cart.png'
-import ProjectWrapper from './ProjectWrapper'
+import React from 'react';
+import Tenis from '../assets/img/tenis.png';
+import Portfolio from '../assets/img/portfolio.png';
+import AdminDashboard from '../assets/img/admin-dashboard.png';
+import ToDoList from '../assets/img/to-do-list.png';
+import ShoppingCart from '../assets/img/shopping-cart.png';
+import CountriesApp from '../assets/img/countries-app.png';
+import BudgetApp from '../assets/img/budget-app.png';
+import ProjectWrapper from './ProjectWrapper';
 
 const Projects = () => {
   return (
@@ -17,6 +19,18 @@ const Projects = () => {
           pathImage={Portfolio}
           projectName='Portfolio'
           codeLink='https://github.com/annaswitaj/portfolio/tree/dev'
+        />
+        <ProjectWrapper
+          pathImage={BudgetApp}
+          projectName='Budget App'
+          liveLink='https://countries-angular-app.netlify.app/regions'
+          codeLink='https://github.com/annaswitaj/countries-angular-app'
+        />
+        <ProjectWrapper
+          pathImage={CountriesApp}
+          projectName='Countries App'
+          liveLink='https://countries-angular-app.netlify.app/regions'
+          codeLink='https://github.com/annaswitaj/countries-angular-app'
         />
         <ProjectWrapper
           pathImage={Tenis}
@@ -44,6 +58,6 @@ const Projects = () => {
         />
       </div>
     </section>
-  )
-}
-export default Projects
+  );
+};
+export default Projects;
