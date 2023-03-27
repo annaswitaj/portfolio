@@ -23,8 +23,7 @@ const Projects = () => {
         <ProjectWrapper
           pathImage={BudgetApp}
           projectName='Budget App'
-          liveLink='https://countries-angular-app.netlify.app/regions'
-          codeLink='https://github.com/annaswitaj/countries-angular-app'
+          codeLink='https://github.com/annaswitaj/budget-angular-app'
         />
         <ProjectWrapper
           pathImage={CountriesApp}
